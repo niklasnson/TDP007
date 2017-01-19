@@ -1,0 +1,25 @@
+Utvecklarblogg 3
+
+För uppgift 1 så använder vi oss av method_missing som plockar upp den första delen av 
+argumentet som bygger upp våran DSL. Denna tillsammans med uttrycket och poängen skickas 
+in som argument. Vi kontrollerar sedan om vår Person innehåller metoden (liten felkontroll) 
+och sedan kontrollerar vi om expression "ex Volvo" finns i vår Person då adderar vi points till score. 
+
+För uppgift två så utgick vi ifrån diceroller klassen och skrev helt enkelt om reglerna så att dom passade språket. För att kunna köra tester så skrev vi en funktion som gör att man kan anropa parsern utan att gå igenom ett gränssnitt. En global variabel håller koll på de tilldelningar som har skett. 
+
+Lyckas vi inte läsa det så verkar tyvärr koden retunera true|false i form av en sträng och inte som TrueClass eller FalseClass. 
+
+2016-02-21 J
+Tydligen så matchades "true" med :var innan :bool. Detta gjorde så att (set a false) blev detsamma som
+"sätt varibelnamn a till variabelnamn false"
+Men vad vi vill göra är
+"sätt variabelnamn a till värdet false".
+Två rader kod behövde byta plats på varrandra, sen fungerade det som det skulle.
+
+2016-02-22 N 
+Hade missat en del i den första uppgiften, detta är nu fixat. Skrivit mer tester för uppgift 2. 
+
+2016-02-22 J/N
+La till så att vi kan använda ints i vår rdparse. Vi lade även till lite fler tester för detta. 
+Ändrade logiken i evualuate så att man nu kan lägga till multiplicerings regler. 
+

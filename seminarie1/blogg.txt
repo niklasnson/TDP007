@@ -1,0 +1,38 @@
+2016-01-16
+
+Idag var den första gången som vi började koda i Ruby
+Vi tycker att Ruby är bekvämt och mycket av det man tycker
+är "logiskt" att det ska fungera fungerar. Syntaxen är lik
+Python som vi har haft i TDP003 och TDP002. Det är små ändringar
+men inget som är svårt att förstå. Tillexempel använder man "if" och "end"
+istället för måsvingar "{ }". Ruby har mycket stöd för Iteration av loopar,
+tillexempel har vi använt "inject" som manipulerar ett värde utanför loopen
+genom att interagera med elementen i en behållare.
+Något som sparar mycket kod är att man inte behöver skriva "return" för funktioner
+eftersom att alla funktioner returnerar det sista som står skrivet i funktionen.
+Allt i Ruby är objekt. Det gör att man kan "kedja" olika objekt med varrandra,
+vilket resulterar i att man kan skriva komplicerade uttryck på en rad, så kallad "one-liner".
+Detta är båda positivt och negativt. Det positiva är att man sparar kod och det ser snyggare
+och simplare ut. Det negativa är att andra programmerare kan ha svårt att förstå vad som händer
+på en one-liner. Därför kom vi fram till att one-liners ska användas varsamt och inte bli
+allt för komplicerade.
+Vi jobbade på effektivt och blev klara med alla uppgifter för seminariet idag.
+Testfall av koden har vi nosat lite på. Vi kommer få lära oss mer om enhetstester under
+föreläsningen idag.
+Under föreläsningen fick vi testa själva hur man enhetstestade. Mycket simpelt men tyvärr
+tråkigt. Vi behöver applicera enhetstester på koden vi skrivit, ett förslag är att skriva en
+ny fil med enhetstestarna för alla filer. Det kan vi göra genom att importera (require) alla
+uppgifts-filer till enhetstest-filen.
+Under föreläsningen fick vi också en djupare insikt på hur man använder sig av regex.
+
+
+Uppgift 6 
+Här skulle vi kunnat använda en attr_reader i stället för funktionen age. 
+och attr_writer i stället för vår age= funktion. 
+
+Uppgift 9 
+Oneliner är ju alltid kul :) 
+
+Uppgift 12
+False och nil är inte samma sak därför kör vi !
+

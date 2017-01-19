@@ -1,0 +1,10 @@
+uppgift 1: 
+
+Skall helt klart erkänna att det första jag kände när jag såg koden var "HJÄLP!".
+När jag började skriva testerna så insåg jag för det första problemet med pritty print (som jag löste genom att döpa om den).
+Men även problemet i ArithmeticConstraint::new_value tog en stund att pilla runt. COPY-PASTE in reglerna och srkiva om så att de även tog hänsyn till out och sen rullade det på bra. 
+
+
+
+uppgift 2:
+tog en bra stund att hitta typo felet i Rule::try_matches. 
